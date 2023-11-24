@@ -1,0 +1,118 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  background-color: #123269;
+  user-select: none;
+}
+
+.logo {
+  width: 20em;
+}
+
+p {
+  color: white; 
+  font-family: 'Caveat', cursive;
+  font-size: 1.7em;
+  font-weight: bold;
+  text-shadow: 2px 5px 2px #000000;
+  margin: auto;
+  margin-top: -20px;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 30px auto;
+  margin-bottom: -2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+ul li {
+  color: rgba(255,204,0,255);
+  background-color:#3461ad;
+  padding: 10px;
+  border: 1px solid rgba(255,204,0,255);
+  border-radius: 8px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  text-shadow: 2px 2px 2px #0d1934;
+  flex-grow: 1;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+ul li:hover {
+  color: #3461ad;
+  background-color: #ffcc00;
+  border: 1px solid #3461ad;
+  cursor: pointer;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 30px auto;
+}
+
+input {
+  color: #432000;
+  background-color: #DCE1EB;
+  border: 0;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  margin: -1px 10px 10px 10px;
+}
+
+.cute-pikachu {
+  width: 80px;
+  margin: auto;
+  margin-right: 11px;
+  margin-top: 30px;
+}
+
+button {
+  color: #ffcc00;
+  background-color: #1a3994;
+  border: 1px solid #ffcc00;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+button:hover {
+  color: #3461ad;
+  background-color: #ffcc00;
+  border: 1px solid #3461ad;
+  cursor: pointer;
+}
+
+#add-button {
+  font-family: 'Caveat', cursive;
+  font-size: 2.3em;
+  text-shadow: 2px 2px 2px #0d1934;
+  font-weight: bolder;
+}
+
+#background {
+  border: 10px solid #ffffff;
+  border-radius: 1px;
+  width: 16em;
+  box-shadow: 10px 10px 12px 1px rgba(0, 0, 0, 0.5);
+  rotate: 8deg;
+  margin: 50px 1px 1px 50px;
+}
